@@ -30,6 +30,7 @@ export default async function GalleryPage() {
             <ListImg
               key={result.public_id}
               src={result.public_id}
+              publicId={result.public_id}
               width="500"
               height="500"
               alt="Description of my image"
